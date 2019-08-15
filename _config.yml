@@ -1,17 +1,16 @@
 # SITE CONFIGURATION
-title: Database on Japanese War Crimes # your site title
+title: Sleek # your site title
 author: GitHub User # You :P
 description: > # Meta description of Homepage
-  This is a database for research and teaching on Japanese war crimes during WWII and the post-war memory issues.
-  This database collects and catalogs relevant information in print, videos, DVDs and other sources regarding the
-  major war crimes, war memory, government documents, redress and reconciliation, and scholar publications.
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://frank-cho-foundation.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/sleek" # the subpath of your site, e.g. /blog
+url: "https://janczizikow.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
 social:
-  name: Frank Cho Foundation
+  name: Your Name
   links:
     - https://twitter.com/BenBalter
     - https://www.facebook.com/ben.balter
@@ -23,13 +22,11 @@ social:
 # THEME SETTINGS
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
-  - {name: 'Films', link: '/films'}
-  - {name: 'Documents', link: '/docs'}
   - {name: 'About', link: '/about'}
   - {name: 'Contact', link: '/contact'}
 
 tagline: >
-  A database for research and teaching on Japanese war crimes during WWII and the post-war memory issues.
+  Modern Jekyll theme focused on speed performance &amp; SEO best practices
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
@@ -72,6 +69,3 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-
-collections:
-  - collections
