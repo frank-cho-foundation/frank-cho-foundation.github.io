@@ -10,6 +10,6 @@ This database collects and catalogs relevant information in print, videos, DVDs 
 
 ## Contributors
 
-- [Yue-him Tam](mailto: tam@macalester.edu)
+- [Yue-him Tam](mailto:tam@macalester.edu)
 - [Fan Zhang](mailto:fzhang@macalester.edu)
 - Edgar(Yijian) Li
