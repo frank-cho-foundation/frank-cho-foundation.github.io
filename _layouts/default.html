@@ -21,16 +21,16 @@ layout: compress
 
     <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">
       <div class="hero__wrap">
-        <h1 class="hero__title">{{ site.title | escape }}</h1>
-        <p class="hero__meta">{{ site.tagline }}</p>
+        <p class="hero__meta">Database On</p>
+        <h1 class="hero__title">Japanese War Crime</h1>
       </div>
     </div>
 
     <main class="site__content">
       <section class="blog">
         <div class="container">
+          <h1 class="title"> Featured Collections </h1>
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
-            <h1> Featured Collections </h1>
             {% for post in site.collections %}
               {% include card.html %}
             {% endfor %}
