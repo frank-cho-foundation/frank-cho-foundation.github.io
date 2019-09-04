@@ -22,7 +22,6 @@ navigation: # Navigation links
   - {name: 'Films', link: '/films'}
   - {name: 'Documents', link: '/docs'}
   - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
 
 tagline: >
   A database for research and teaching on Japanese war crimes during WWII and the post-war memory issues.
