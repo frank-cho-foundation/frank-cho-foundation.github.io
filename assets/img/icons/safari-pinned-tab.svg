@@ -1,19 +1,17 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="260.000000pt" height="260.000000pt" viewBox="0 0 260.000000 260.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.11, written by Peter Selinger 2001-2013
-</metadata>
-<g transform="translate(0.000000,260.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M1237 1809 c-125 -29 -211 -117 -224 -228 -16 -139 56 -233 242 -315
-176 -77 225 -121 225 -201 0 -99 -70 -151 -189 -143 -80 6 -136 33 -197 94
-l-45 44 -54 -46 -54 -47 25 -33 c82 -106 249 -166 404 -144 184 26 271 118
-271 286 0 144 -62 216 -262 304 -174 76 -217 122 -198 208 10 44 34 70 78 82
-84 23 183 1 249 -56 l43 -36 48 43 c27 24 49 49 50 55 2 19 -68 75 -124 100
--89 41 -201 54 -288 33z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="260px" height="260px" viewBox="0 0 260 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>safari-pinned-tab</title>
+    <desc>Created with Sketch.</desc>
+    <g id="safari-pinned-tab" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo">
+            <circle id="Oval" fill="#BF373D" cx="130" cy="130" r="130"></circle>
+            <g id="grid" transform="translate(87.880000, 88.400000)" fill="#FFFFFF">
+                <rect id="Rectangle" x="52" y="0" width="52" height="53.7416268"></rect>
+                <rect id="Rectangle" x="0" y="53.7416268" width="52" height="53.7416268"></rect>
+                <rect id="Rectangle" x="104" y="50.0095694" width="52" height="53.7416268"></rect>
+                <rect id="Rectangle" x="52" y="102.258373" width="52" height="53.7416268"></rect>
+            </g>
+        </g>
+    </g>
 </svg>
