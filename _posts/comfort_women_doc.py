@@ -1,11 +1,12 @@
 import re
+import os
 
 info_dict = {
     "title" : "",
     "filename" : "",
     "file" : "",
     "link" : "",
-    "id" : "",
+    "government_id" : "",
     "release_time" : "",
     "publisher": "",
     "issue_time" : "",
@@ -13,7 +14,7 @@ info_dict = {
 }
 
 def write_info(info_dict: dict):
-    id = info_dict["id"]
+    id = info_dict["government_id"]
     fname = f"2019-8-14-{id}.md"
     with open(fname, "w") as fh:
         fh.write("---\n")
@@ -28,7 +29,10 @@ def write_info(info_dict: dict):
         summary = info_dict["summary"]
         fh.write(f"{summary}\n")
 
-with open("comfort-women-doc.txt") as fh:
+fname = os.path.abspath("comfort-women-doc.txt")
+
+
+with open(fname) as fh:
     for line in fh:
         if line.startswith("Title"):
             filename = re.findall("\((.*?)\)", line)[0].strip()
@@ -64,8 +68,8 @@ with open("comfort-women-doc.txt") as fh:
         if (line.startswith("Official")):
             id = re.findall(":(.*)", line)[0].strip()
             if id:
-                print(f"id: {id}")
-                info_dict["id"] = id
+                print(f"government_id: {id}")
+                info_dict["government_id"] = id
             else:
                 print("id: None")
                 raise NameError("no id")
@@ -111,7 +115,7 @@ with open("comfort-women-doc.txt") as fh:
             else:
                 raise NameError("no summary")
 
-        if (line == '\n' and info_dict["id"]):
+        if (line == '\n' and info_dict["government_id"]):
             write_info(info_dict)
             # zero out the values of info_dict
             for key in info_dict.keys():
